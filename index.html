@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iphone - Jex</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="header">
+        <img id="logo" src="./assets/logo.png" alt="logo iphone">
+        <a>Mac</a>
+        <a>Ipad</a>
+        <a>Iphone</a>
+        <a>Watch</a>
+        <a>AirPods</a>
+        <a>Acessórios</a>
+        <a>Suporte</a>
+    </header>
+
+    <main class="main">
+        <section class="conteiner-esquerda">
+            <h1 id="h1">IPHONE 14</h1>
+            <h2>Tão poderoso. Tão ao seu alcance!</h2>
+            <p>Em dois tamanhos perfeitos. Agora com um toque de Roxo.</p>
+            <p>A partir de R$ 633,25/mês ou R$ 7.599 *</p>
+            <button id="botao">Comprar</button>
+        </section>
+
+        <section class="conteiner-direita">
+            <img class="iphone" src="./assets/iphone-roxo.png">
+            <div class="polygon"></div>
+        </section>
+    </main>
+
+    <div class="cores">
+        <p>escolha sua cor:</p>
+
+        <div class="opcoes">
+            <span id="roxo" onclick="mudarCor('#7056AD'); trocarImagem('./assets/iphone-roxo.png')" onmouseover="trocarBoxShadow('#7056AD')" onmouseleave="mouseD()"></span>
+            <span id="preto" onclick="mudarCor('#32393F'); trocarImagem('./assets/iphone-preto.png')" onmouseover="trocarBoxShadow('#32393F')" onmouseleave="mouseD()"></span>
+            <span id="branco" onclick="mudarCor('#DBD7D4'); trocarImagem('./assets/iphone-branco.png')" onmouseover="trocarBoxShadow('#DBD7D4')" onmouseleave="mouseD()"></span>
+            <span id="amarelo" onclick="mudarCor('#E8D15E'); trocarImagem('./assets/iphone-amarelo.png')" onmouseover="trocarBoxShadow('#E8D15E')" onmouseleave="mouseD()"></span>
+            <span id="azul" onclick="mudarCor('#879DB2'); trocarImagem('./assets/iphone-azul.png')" onmouseover="trocarBoxShadow('#879DB2')" onmouseleave="mouseD()"></span>
+            <span id="vermelho" onclick="mudarCor('#C4091A'); trocarImagem('./assets/iphone-red.png')" onmouseover="trocarBoxShadow('#C4091A')" onmouseleave="mouseD()"></span>
+         </div>
+    </div>
+
+</body>
+
+<script src="./scripts.js"></script>
+
+</html>
