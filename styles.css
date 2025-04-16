@@ -256,7 +256,7 @@ button:hover {
 
     h1 {
         position: absolute;
-        top: 10%;
+        top: 12%;
         font-size: 35px;
         left: 0px;
         transform: translateX(42%);
@@ -282,7 +282,7 @@ button:hover {
         position: absolute;
         max-width: 50%;
         right: 0px;
-        bottom: 15%;
+        bottom: 20%;
         z-index: 999;
         transition: 1s ease-in-out;
 
@@ -324,6 +324,17 @@ button:hover {
         z-index: -1;
         transition: 0.7s cubic-bezier(0, 0, 0, 0.96);
 
+
+    }
+
+    .paragrafos-button {
+        margin-top: 100px;
+    }
+
+    button {
+        box-shadow: 2px 2px 10px #000000;
+        border: 1px solid #0000005b;
+        margin-left: 20px;
 
     }
 
