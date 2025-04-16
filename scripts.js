@@ -12,40 +12,59 @@ const white = document.querySelector('#branco')
 const purple = document.querySelector('#roxo')
 
 
-function mudarCor(cor){
+function mudarCor(cor) {
 
     background.style.background = cor
     botao.style.background = cor
     h1.style.color = cor
     header.style.borderColor = cor
-    
-    
+
+
 
 }
 
-function trocarImagem(img){
+function trocarImagem(img) {
     celular.src = img
-    
-
-}
-
-function trocarBoxShadow(cor){
-
-    
-
-    botao.style.backgroundColor = cor
-    celular.style.maxWidth = '31%'
-    celular.style.transform = 'rotateY(180deg)'
-    header.style.boxShadow = '2px 2px 10px #32393F'
-    header.style.borderColor = cor
 
 
 }
 
-function mouseD(){
-    celular.style.maxWidth = '30%'
-    celular.style.transform = 'rotateY(0deg)'
-    header.style.boxShadow = '1px 1px 10px #DBD7D4'
-    
+function trocarBoxShadow(cor) {
+
+    if (window.innerWidth < 710) {
+        botao.style.backgroundColor = cor
+        celular.style.maxWidth = '50%'
+        celular.style.transform = 'rotateY(180deg)'
+        header.style.boxShadow = '2px 2px 10px #32393F'
+
+
+    } else {
+
+        botao.style.backgroundColor = cor
+        celular.style.maxWidth = '31%'
+        celular.style.transform = 'rotateY(180deg)'
+        header.style.boxShadow = '2px 2px 10px #32393F'
+        header.style.borderColor = cor
+    }
+
+}
+
+function mouseD() {
+
+    if (window.innerWidth < 710) {
+
+        celular.style.maxWidth = '50%'
+        celular.style.transform = 'rotateY(0deg)'
+        header.style.boxShadow = '1px 1px 10px #DBD7D4'
+
+    } else {
+
+        celular.style.maxWidth = '30%'
+        celular.style.transform = 'rotateY(0deg)'
+        header.style.boxShadow = '1px 1px 10px #DBD7D4'
+
+    }
+
+
 
 }
