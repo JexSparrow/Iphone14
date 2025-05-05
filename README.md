@@ -3,7 +3,7 @@
 Apresento uma landing page interativa inspirada no icônico iPhone, construída com HTML para a estrutura elegante, CSS para um design que evoca a sofisticação da marca e JavaScript para uma dose de personalização mágica.
 Nesta experiência digital, os usuários podem customizar o visual do "seu" iPhone com um simples toque! As cores vibrantes do background, do botão de chamada e até da manchete principal se adaptam ao clique, enquanto a imagem do próprio celular se transforma, permitindo visualizar diferentes modelos ou acabamentos. Tudo isso embalado em um design totalmente responsivo para dispositivos móveis, garantindo uma experiência impecável em qualquer tela.
 
-<h2>Um breve resumo das funcionalidades que encantam: </h2>
+<h2>Um breve resumo das funcionalidades:</h2>
 
 ✅ Paleta de Cores Dinâmica: Altere instantaneamente a cor de destaque da página (background, botão, título e borda do header) com seletores intuitivos.
 
